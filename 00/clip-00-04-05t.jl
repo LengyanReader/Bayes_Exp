@@ -35,6 +35,9 @@ end;
 # ╔═╡ eb567d8c-122d-11eb-0f13-f7ea2dc1f805
 Text(precis(df; io=String))
 
+# ╔═╡ 7f4b0dd7-0915-42c6-8c27-7f6d0bfeb4d6
+first(df,5) 
+
 # ╔═╡ 37924058-eb98-11ea-3a78-390939122024
 md"##### Fit a linear regression of distance on speed."
 
@@ -53,6 +56,9 @@ md"##### Plot residuals against height."
 # ╔═╡ d7308a84-eb98-11ea-2299-95175b5cf27d
 scatter( df.height, residuals(m), xlab="Height",
   ylab="Model residual values", lab="Model residuals", leg=:bottomright)
+
+# ╔═╡ 8e2862f9-e8c4-480f-a50d-5f7c6db0f62f
+aa=1
 
 # ╔═╡ e17084e2-eb98-11ea-34ef-b1ebfab71041
 md"## End of clip-00-04-05t.jl"
@@ -1424,12 +1430,14 @@ version = "0.9.1+5"
 # ╟─fe16f312-eb97-11ea-1272-fb0eb517fbe2
 # ╠═1059f184-eb98-11ea-1108-a50008b9be0c
 # ╠═eb567d8c-122d-11eb-0f13-f7ea2dc1f805
+# ╠═7f4b0dd7-0915-42c6-8c27-7f6d0bfeb4d6
 # ╟─37924058-eb98-11ea-3a78-390939122024
 # ╠═61681d9c-eb98-11ea-1411-df9bdf7296ae
 # ╟─686ef54a-eb98-11ea-1b68-d33aa9873780
 # ╠═5b284ec8-eb97-11ea-142f-85ff5053bd2b
 # ╟─b0943d46-eb98-11ea-1a87-8d8b461219a8
 # ╠═d7308a84-eb98-11ea-2299-95175b5cf27d
+# ╠═8e2862f9-e8c4-480f-a50d-5f7c6db0f62f
 # ╟─e17084e2-eb98-11ea-34ef-b1ebfab71041
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
